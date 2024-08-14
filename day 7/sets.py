@@ -15,7 +15,7 @@ print(B.symmetric_difference(A)) #i don't know why this isn't working (i'll fix 
 del A
 del B
 
-age = [22, 19, 24, 25, 26, 24, 25, 24]
+age = [22, 19, 24, 25, 26, 24, 25, 24, 26]
 age_set = set(age)
 age_list = list(age)
 print(len(age_list)-len(age_set)) #the list
